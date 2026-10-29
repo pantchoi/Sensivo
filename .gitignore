@@ -1,0 +1,36 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Frontend tooling
+node_modules/
+dist/
+build/
+
+# Editor and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local exports, user data, backups and logs
+*.log
+*.bak
+*.zip
+backup*.json
+*_backup.json
+relatorio*.json
+reports/
+exports/
